@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">The Soapbox</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_title">The Soapbox</string>
+    <string name="quotes">If then the power of speech is as great as any that can be named.</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="title_activity_register">Sign up</string>
+    <string name="title_activity_home_soapbox">HomeSoapbox</string>
+    <string name="title_activity_swipe_gesture">swipeGesture</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_reserve_speech">ReserveSpeech</string>
+</resources>

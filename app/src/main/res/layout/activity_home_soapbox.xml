@@ -1,0 +1,219 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#84000000"
+        android:layout_gravity="top"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_title"
+            android:id="@+id/textView"
+            android:textColor="#ffffffff"
+            android:textSize="22dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="13dp"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7f000000"
+        android:divider="#ff000000"
+        android:dividerPadding="5dp"
+        android:focusable="true"
+        android:id="@+id/joinSpeech"
+        android:baselineAligned="false"
+        android:showDividers="beginning|end"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/shoutBox"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/shoutbox_big" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ongoing Speech"
+            android:textSize="25dp"
+            android:textColor="#ffffffff"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7f000000"
+        android:divider="#ff000000"
+        android:dividerPadding="5dp"
+        android:focusable="true"
+        android:id="@+id/checkSchedule"
+        android:baselineAligned="false"
+        android:showDividers="beginning|end"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/calender"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/calender_big"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Schedule"
+            android:textSize="25dp"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7f000000"
+        android:divider="#ff000000"
+        android:dividerPadding="5dp"
+        android:focusable="true"
+        android:id="@+id/reserveSpeech"
+        android:baselineAligned="false"
+        android:showDividers="beginning|end"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/speech"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/speech_big" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reserve Speech"
+            android:textSize="25dp"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7f000000"
+        android:divider="#ff000000"
+        android:dividerPadding="5dp"
+        android:focusable="true"
+        android:id="@+id/myProfile"
+        android:baselineAligned="false"
+        android:showDividers="beginning|end"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/profile"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/profile_big"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textSize="25dp"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7f000000"
+        android:divider="#ff000000"
+        android:dividerPadding="5dp"
+        android:focusable="true"
+        android:id="@+id/btn_logout"
+        android:baselineAligned="false"
+        android:showDividers="beginning|end"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/logout"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/logout"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textSize="25dp"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
